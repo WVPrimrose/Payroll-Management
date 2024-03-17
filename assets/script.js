@@ -6,17 +6,22 @@ const collectEmployees = function() {
   // TODO: Get user input to create and return an array of employee objects
   prompt(`Enter First Name`);
   prompt(`Enter Last Name`);
+  collectEmployees();
+  return;
 }
 
 // Display the average salary
 const displayAverageSalary = function(employeesArray) {
   // TODO: Calculate and display the average salary
   prompt(`Enter Average Salary`);
+  displayAverageSalary();
+  return;
 }
 
 // Select a random employee
 const getRandomEmployee = function(employeesArray) {
   // TODO: Select and display a random employee
+getRandomEmployee();
 }
 
 /*
@@ -28,8 +33,7 @@ const getRandomEmployee = function(employeesArray) {
 // Display employee data in an HTML table
 const displayEmployees = function(employeesArray) {
   // Get the employee table
-  const employeeTable = document.querySelector('#employee-table');
-
+  const employeeTable = document.querySelector("#employee-table");
   // Clear the employee table
   employeeTable.innerHTML = '';
 
@@ -38,6 +42,7 @@ const displayEmployees = function(employeesArray) {
     const currentEmployee = employeesArray[i];
 
     const newTableRow = document.createElement("tr");
+    for (let i=0; i < employeesArray.length; i++);
 
     const firstNameCell = document.createElement("td");
     firstNameCell.textContent = currentEmployee.firstName;
