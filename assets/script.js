@@ -19,7 +19,8 @@ const displayAverageSalary = function(employeesArray) {
 // Select a random employee
 const getRandomEmployee = function(employeesArray) {
   // TODO: Select and display a random employee
-getRandomEmployee();
+employees.getRandomEmployee;
+console.log(getRandomEmployee);
 }
 
 /*
@@ -30,8 +31,10 @@ getRandomEmployee();
 
 // Display employee data in an HTML table
 const displayEmployees = function(employeesArray) {
+  displayEmployees();
   // Get the employee table
   const employeeTable = document.querySelector("#employee-table");
+  employeeTable();
   // Clear the employee table
   employeeTable.innerHTML = '';
 
