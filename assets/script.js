@@ -6,7 +6,6 @@ const collectEmployees = function() {
   // TODO: Get user input to create and return an array of employee objects
   prompt(`Enter First Name`);
   prompt(`Enter Last Name`);
-  collectEmployees();
   return;
 }
 
@@ -14,7 +13,6 @@ const collectEmployees = function() {
 const displayAverageSalary = function(employeesArray) {
   // TODO: Calculate and display the average salary
   prompt(`Enter Average Salary`);
-  displayAverageSalary();
   return;
 }
 
