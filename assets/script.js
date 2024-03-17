@@ -1,5 +1,6 @@
 // Get a reference to the #add-employees-btn element
 const addEmployeesBtn = document.querySelector('#add-employees-btn');
+let employeeArray = ["firstName", "lastName", "salary"]
 
 // Collect employee data
 const collectEmployees = function() {
@@ -19,8 +20,7 @@ const displayAverageSalary = function(employeesArray) {
 // Select a random employee
 const getRandomEmployee = function(employeesArray) {
   // TODO: Select and display a random employee
-employees.getRandomEmployee;
-console.log(getRandomEmployee);
+SelectionrandomEmployee();
 }
 
 /*
@@ -31,10 +31,10 @@ console.log(getRandomEmployee);
 
 // Display employee data in an HTML table
 const displayEmployees = function(employeesArray) {
-  displayEmployees();
+  log: [employeesArray]
   // Get the employee table
   const employeeTable = document.querySelector("#employee-table");
-  employeeTable();
+  getemployeeTable();
   // Clear the employee table
   employeeTable.innerHTML = '';
 
