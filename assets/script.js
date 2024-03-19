@@ -10,6 +10,9 @@ const collectEmployees = function() {
   }
   prompt (`Do you want to add another employee?`)
   if (`Do you want to add another employee` === true) {
+    while (addEmployee) {let i = 0; 0 < employeeArray.length; i++
+      
+    }
   }
     
   
@@ -27,6 +30,7 @@ const displayAverageSalary = function(employeesArray) {
 let averageSalary;
   for (let i = 0; index < employeesArray.length; i++) {
     const element = employeesArray[i];
+    console.log()
     
     
   }
