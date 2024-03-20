@@ -1,5 +1,6 @@
 // Get a reference to the #add-employees-btn element
 const addEmployeesBtn = document.querySelector('#add-employees-btn');
+let employeeTable = ["firstName", "lastName", "salary"];
 
 // Collect employee data
 const collectEmployees = function() {
@@ -8,13 +9,7 @@ const collectEmployees = function() {
   let lastName = prompt(`Enter Last Name`);
   let salary = prompt(`Enter Average Salary`);   
   }
-  prompt (`Do you want to add another employee?`)
-  if (`Do you want to add another employee` === true) {
-    while (addEmployee) {let i = 0; 0 < employeeArray.length; i++
-      
-    }
-  }
-    
+  prompt (`Do you want to add another employee?`); 
   
   let employeeArray = [{
     firstName:firstName, 
@@ -38,6 +33,7 @@ let averageSalary;
 // Select a random employee
 const getRandomEmployee = function(employeesArray) {
   // TODO: Select and display a random employee;
+  console.log(getRandomEmployee)
 }
 
 /*
