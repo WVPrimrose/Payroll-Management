@@ -15,10 +15,10 @@ const collectEmployees = function() {
 while (confirm === true)
   return;
 
-  const employees = {
-    firstName:firstName.value,
-    lastName:lastName.value,
-    salary:salary.value,
+  const employeesArray = {
+    firstName:"firstName".value,
+    lastName:"lastName".value,
+    salary:"salary".value,
   }
   console.log(object.value(employees));
 }
@@ -28,7 +28,7 @@ while (confirm === true)
 // Display the average salary
 const displayAverageSalary = function(employeesArray) {
   // TODO: Calculate and display the average salary
-console.log(employees.salary.values)
+//console.log(employeesArray.salary.values)
 }
 
 // Select a random employee
