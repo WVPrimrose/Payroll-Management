@@ -13,6 +13,7 @@ const collectEmployees = function () {
     let firstName = prompt("Enter First Name");
     let lastName = prompt("Enter Last Name");
     let salary = prompt("Enter Salary");
+    // if (salary = !number) { return alert("please enter a valid number")}
     continueAdding = confirm("Do you want to add another employee?");
 
     const employeesObject = {
