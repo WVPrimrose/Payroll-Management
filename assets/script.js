@@ -2,7 +2,7 @@
 const addEmployeesBtn = document.querySelector('#add-employees-btn');
 console.log(addEmployeesBtn)
 let employeeTable = ["firstName", "lastName", "salary"]
-let NaN = ""
+
 // Collect employee data
 const collectEmployees = function () {
   let employeeArray = []
@@ -13,15 +13,8 @@ const collectEmployees = function () {
     let firstName = prompt("Enter First Name");
     let lastName = prompt("Enter Last Name");
     let salary = prompt("Enter Salary");
-    function validateSalary() {
-      if (salary === NaN) { 
-        return alert("please enter a valid number")
-      } else {
-        continueAdding = confirm("Do you want to add another employee?");
-      }
-    }
-    validateSalary()
-    
+    continueAdding = confirm("Do you want to add another employee?");
+
     const employeesObject = {
       firstName: firstName,
       lastName: lastName,
