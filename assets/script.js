@@ -13,6 +13,14 @@ const collectEmployees = function () {
     let firstName = prompt("Enter First Name");
     let lastName = prompt("Enter Last Name");
     let salary = prompt("Enter Salary");
+    // want to add a function so the salary only accepts a nummeric value
+    // options: !number or NaN
+    // possible code
+    // function validateSalary() {
+    // if (salary.NaN){
+    // alert("please enter valid number")
+    // Then go back to previous salary prompt
+    // }}
     continueAdding = confirm("Do you want to add another employee?");
 
     const employeesObject = {
